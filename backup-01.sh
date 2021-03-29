@@ -1,4 +1,4 @@
-#!/bin/bash -v 
+#!/bin/bash  
 echo "Criando Pasta de Montagem"
 sleep 03
 sudo mkdir /media/wnc/hd
@@ -15,21 +15,21 @@ sudo mkdir /media/wnc/hd/wnc-backup
 echo ""
 echo "Preparando para copiar arquivos"
 sleep 03
-cp -v -r /home/wnc/.run /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/.fonts /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/.themes /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/Documentos /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/Música /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/Vídeos /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/Dropbox /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/Imagens /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/Gimp /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/MeusApps-Java /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/Shell-Scripiting /media/wnc/hd/wnc-backup
-cp -v -r /home/wnc/inkscape-projetos /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/.run /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/.fonts /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/.themes /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/Documentos /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/Música /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/Vídeos /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/Dropbox /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/Imagens /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/Gimp /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/MeusApps-Java /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/Shell-Scripiting /media/wnc/hd/wnc-backup
+sudo cp -v -r /home/wnc/inkscape-projetos /media/wnc/hd/wnc-backup
 echo ""
 echo "Listando Arquivos..."
-du -l -h /media/wnc/hd/wnc-backup
+sudo du -l -h /media/wnc/hd/wnc-backup
 echo ""
 echo "Backup Finalizado "
 echo ""
